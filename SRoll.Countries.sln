@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70A7FE20-8920-46B6-8E74-C81139BA0E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B46CC52-EA3B-46A4-B0F9-716C629C0AF7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SRoll.Countries", "src\SRoll.Countries\SRoll.Countries.xproj", "{DF89DFD2-3313-49A1-8098-68B7E92FF65C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SRoll.Countries.Test", "src\SRoll.Countries.Test\SRoll.Countries.Test.xproj", "{566F29BB-E5A9-42CE-8D5A-705F6B639C37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF89DFD2-3313-49A1-8098-68B7E92FF65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF89DFD2-3313-49A1-8098-68B7E92FF65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF89DFD2-3313-49A1-8098-68B7E92FF65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF89DFD2-3313-49A1-8098-68B7E92FF65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566F29BB-E5A9-42CE-8D5A-705F6B639C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566F29BB-E5A9-42CE-8D5A-705F6B639C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566F29BB-E5A9-42CE-8D5A-705F6B639C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566F29BB-E5A9-42CE-8D5A-705F6B639C37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF89DFD2-3313-49A1-8098-68B7E92FF65C} = {70A7FE20-8920-46B6-8E74-C81139BA0E53}
+		{566F29BB-E5A9-42CE-8D5A-705F6B639C37} = {70A7FE20-8920-46B6-8E74-C81139BA0E53}
+	EndGlobalSection
+EndGlobal

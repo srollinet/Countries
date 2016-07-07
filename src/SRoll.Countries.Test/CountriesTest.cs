@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-using System.Threading;
 using Xunit;
 
 namespace SRoll.Countries.Test
@@ -8,7 +7,7 @@ namespace SRoll.Countries.Test
     {
         public CountriesTest()
         {
-            CultureInfo.CurrentUICulture = new CultureInfo("en");
+            SetCulture("en");
         }
 
         [Fact]
@@ -21,7 +20,7 @@ namespace SRoll.Countries.Test
         [Fact]
         public void OtherCultureTest()
         {
-            CultureInfo.CurrentUICulture = new CultureInfo("fr");
+            SetCulture("fr");
             var country = new Country("CH", "CHE", "");
             Assert.Equal("Suisse", country.Name);
         }
@@ -30,6 +29,16 @@ namespace SRoll.Countries.Test
         public void GetListTest()
         {
             var list = Country.Countries;
+        }
+
+        private static void SetCulture(string culture)
+        {
+            var ci = new CultureInfo(culture);
+            #if LEGACY
+            System.Threading.Thread.CurrentThread.CurrentUICulture = ci;
+            #else
+            CultureInfo.CurrentUICulture = ci;
+            #endif
         }
     }
 }

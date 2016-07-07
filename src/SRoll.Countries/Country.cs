@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Globalization;
+﻿using System.Globalization;
 using SRoll.Countries.Resources;
 
 namespace SRoll.Countries
@@ -32,8 +31,7 @@ namespace SRoll.Countries
             return CountryNames.ResourceManager.GetString(Alpha3Code, culture);
         }
 
-        public static IReadOnlyCollection<Country> Countries = new[]
-        {
+        public static Country[] Countries = {
             new Country("AF", "AFG", "004"),
             new Country("AX", "ALA", "248"),
             new Country("AL", "ALB", "008"),

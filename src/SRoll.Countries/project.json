@@ -1,5 +1,11 @@
 ﻿{
+  "title": "SRoll.Countries",
+  "description": "Localized list of ISO-3166 country codes.",
+
   "version": "1.0.0",
+  "authors": [ "SRoll" ],
+  "copyright": "Copyright © SRoll 2016",
+  "language": "en",
 
   "dependencies": {
   },
@@ -12,5 +18,10 @@
         "System.Diagnostics.Debug": "4.0.11"
       }
     }
+  },
+
+  "buildOptions": {
+    "warningsAsErrors": true,
+    "xmlDoc": true
   }
 }

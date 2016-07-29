@@ -1,18 +1,9 @@
 ﻿using System.Reflection;
-using System.Runtime.InteropServices;
 
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SRoll.Countries.Test")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTitle("SRoll.Countries.Test")]
+[assembly: AssemblyProduct("SRoll.Countries")]
 
-// Setting ComVisible to false makes the types in this assembly not visible
-// to COM components.  If you need to access a type in this assembly from
-// COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
+[assembly: AssemblyCompany("SRoll @ https://github.com/srollinet")]
+[assembly: AssemblyCopyright("Copyright © SRoll 2016")]
 
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("566f29bb-e5a9-42ce-8d5a-705f6b639c37")]
+[assembly: AssemblyVersion("1.0.0.0")]

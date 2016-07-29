@@ -1,27 +1,16 @@
 ﻿{
-  "version": "0.1.0-*",
+  "version": "1.0.0",
 
   "dependencies": {
   },
 
   "frameworks": {
-    //"net40": {},
-    "net45": {},
-    "netstandard1.1": {
-      "buildOptions": {
-        "define": [ "ASYNC", "COREFX" ]
-      },
+    "netstandard1.0": {
       "dependencies": {
         "System.Runtime": "4.1.0",
         "System.Resources.ResourceManager": "4.0.1",
-        "System.Runtime.InteropServices": "4.1.0",
         "System.Diagnostics.Debug": "4.0.11"
       }
     }
-  },
-
-  "namedResource": {
-    "SRoll.Countries.CountryNames": "Resources\\CountryNames.resx",
-    "SRoll.Countries.CountryNames.fr": "Resources\\CountryNames.fr.resx"
   }
 }

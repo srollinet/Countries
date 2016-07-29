@@ -13,22 +13,53 @@ namespace SRoll.Countries.Test
         [Fact]
         public void CreateTest()
         {
-            var country = new Country("CH", "CHE", "");
+            var country = new Country("CH", "CHE", 756);
             Assert.Equal("Switzerland", country.Name);
         }
 
         [Fact]
         public void OtherCultureTest()
         {
-            SetCulture("fr");
-            var country = new Country("CH", "CHE", "");
+            SetCulture("fr-CH");
+            var country = new Country("CH", "CHE", 756);
             Assert.Equal("Suisse", country.Name);
+        }
+
+        [Fact]
+        public void ChangeCultureTest()
+        {
+            var country = new Country("CH", "CHE", 756);
+            Assert.Equal("Switzerland", country.Name);
+
+            SetCulture("fr");
+            Assert.Equal("Suisse", country.Name);
+        }
+
+        [Fact]
+        public void UnsupportedCultureTest()
+        {
+            SetCulture("zz");
+            var country = new Country("CH", "CHE", 756);
+            Assert.Equal("Switzerland", country.Name);
+        }
+
+        [Fact]
+        public void GetLocalizedNameTest()
+        {
+            var country = new Country("CH", "CHE", 756);
+            Assert.Equal("Switzerland", country.Name);
+            Assert.Equal("Suisse", country.GetLocalizedName(new CultureInfo("fr")));
         }
 
         [Fact]
         public void GetListTest()
         {
-            var list = Country.Countries;
+            var list = Country.List;
+            Assert.NotEmpty(list);
+            foreach (var country in list)
+            {
+                Assert.NotNull(country.Name);
+            }
         }
 
         private static void SetCulture(string culture)

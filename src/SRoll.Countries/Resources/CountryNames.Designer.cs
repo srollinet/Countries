@@ -38,7 +38,7 @@ namespace SRoll.Countries.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SRoll.Countries.CountryNames", typeof(CountryNames).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SRoll.Countries.Resources.CountryNames", typeof(CountryNames).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -123,7 +123,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to United Arab Emirates.
+        ///    Looks up a localized string similar to United Arab Emirates (the).
         /// </summary>
         public static string ARE {
             get {
@@ -168,7 +168,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to French Southern Territories.
+        ///    Looks up a localized string similar to French Southern Territories (the).
         /// </summary>
         public static string ATF {
             get {
@@ -285,7 +285,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Bahamas.
+        ///    Looks up a localized string similar to Bahamas (the).
         /// </summary>
         public static string BHS {
             get {
@@ -402,7 +402,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Central African Republic.
+        ///    Looks up a localized string similar to Central African Republic (the).
         /// </summary>
         public static string CAF {
             get {
@@ -420,7 +420,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Cocos (Keeling) Islands.
+        ///    Looks up a localized string similar to Cocos (Keeling) Islands (the).
         /// </summary>
         public static string CCK {
             get {
@@ -474,7 +474,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Congo (Democratic Republic of the).
+        ///    Looks up a localized string similar to Congo (the Democratic Republic of the).
         /// </summary>
         public static string COD {
             get {
@@ -483,7 +483,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Congo.
+        ///    Looks up a localized string similar to Congo (the).
         /// </summary>
         public static string COG {
             get {
@@ -492,7 +492,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Cook Islands.
+        ///    Looks up a localized string similar to Cook Islands (the).
         /// </summary>
         public static string COK {
             get {
@@ -510,7 +510,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Comoros.
+        ///    Looks up a localized string similar to Comoros (the).
         /// </summary>
         public static string COM {
             get {
@@ -564,7 +564,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Cayman Islands.
+        ///    Looks up a localized string similar to Cayman Islands (the).
         /// </summary>
         public static string CYM {
             get {
@@ -582,7 +582,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Czech Republic.
+        ///    Looks up a localized string similar to Czech Republic (the).
         /// </summary>
         public static string CZE {
             get {
@@ -627,7 +627,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Dominican Republic.
+        ///    Looks up a localized string similar to Dominican Republic (the).
         /// </summary>
         public static string DOM {
             get {
@@ -726,7 +726,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Falkland Islands (Malvinas).
+        ///    Looks up a localized string similar to Falkland Islands (the) [Malvinas].
         /// </summary>
         public static string FLK {
             get {
@@ -744,7 +744,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Faroe Islands.
+        ///    Looks up a localized string similar to Faroe Islands (the).
         /// </summary>
         public static string FRO {
             get {
@@ -771,7 +771,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to United Kingdom of Great Britain and Northern Ireland.
+        ///    Looks up a localized string similar to United Kingdom of Great Britain and Northern Ireland (the).
         /// </summary>
         public static string GBR {
             get {
@@ -834,7 +834,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Gambia.
+        ///    Looks up a localized string similar to Gambia (the).
         /// </summary>
         public static string GMB {
             get {
@@ -1005,7 +1005,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to British Indian Ocean Territory.
+        ///    Looks up a localized string similar to British Indian Ocean Territory (the).
         /// </summary>
         public static string IOT {
             get {
@@ -1158,7 +1158,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Korea (Republic of).
+        ///    Looks up a localized string similar to Korea (the Republic of).
         /// </summary>
         public static string KOR {
             get {
@@ -1176,7 +1176,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Lao People&apos;s Democratic Republic.
+        ///    Looks up a localized string similar to Lao People&apos;s Democratic Republic (the).
         /// </summary>
         public static string LAO {
             get {
@@ -1311,7 +1311,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Moldova (Republic of).
+        ///    Looks up a localized string similar to Moldova (the Republic of).
         /// </summary>
         public static string MDA {
             get {
@@ -1347,7 +1347,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Marshall Islands.
+        ///    Looks up a localized string similar to Marshall Islands (the).
         /// </summary>
         public static string MHL {
             get {
@@ -1410,7 +1410,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Northern Mariana Islands.
+        ///    Looks up a localized string similar to Northern Mariana Islands (the).
         /// </summary>
         public static string MNP {
             get {
@@ -1509,7 +1509,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Niger.
+        ///    Looks up a localized string similar to Niger (the).
         /// </summary>
         public static string NER {
             get {
@@ -1554,7 +1554,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Netherlands.
+        ///    Looks up a localized string similar to Netherlands (the).
         /// </summary>
         public static string NLD {
             get {
@@ -1644,7 +1644,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Philippines.
+        ///    Looks up a localized string similar to Philippines (the).
         /// </summary>
         public static string PHL {
             get {
@@ -1689,7 +1689,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Korea (Democratic People&apos;s Republic of).
+        ///    Looks up a localized string similar to Korea (the Democratic People&apos;s Republic of).
         /// </summary>
         public static string PRK {
             get {
@@ -1761,7 +1761,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Russian Federation.
+        ///    Looks up a localized string similar to Russian Federation (the).
         /// </summary>
         public static string RUS {
             get {
@@ -1788,7 +1788,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Sudan.
+        ///    Looks up a localized string similar to Sudan (the).
         /// </summary>
         public static string SDN {
             get {
@@ -1995,7 +1995,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Turks and Caicos Islands.
+        ///    Looks up a localized string similar to Turks and Caicos Islands (the).
         /// </summary>
         public static string TCA {
             get {
@@ -2112,7 +2112,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Taiwan, Province of China[a].
+        ///    Looks up a localized string similar to Taiwan (Province of China).
         /// </summary>
         public static string TWN {
             get {
@@ -2148,7 +2148,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to United States Minor Outlying Islands.
+        ///    Looks up a localized string similar to United States Minor Outlying Islands (the).
         /// </summary>
         public static string UMI {
             get {
@@ -2166,7 +2166,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to United States of America.
+        ///    Looks up a localized string similar to United States of America (the).
         /// </summary>
         public static string USA {
             get {
@@ -2184,7 +2184,7 @@ namespace SRoll.Countries.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Holy See.
+        ///    Looks up a localized string similar to Holy See (the).
         /// </summary>
         public static string VAT {
             get {

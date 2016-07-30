@@ -38,7 +38,7 @@ namespace SRoll.Countries.Test
         [Fact]
         public void UnsupportedCultureTest()
         {
-            SetCulture("zz");
+            SetCulture("nb-NO");
             var country = new Country("CH", "CHE", 756);
             Assert.Equal("Switzerland", country.Name);
         }

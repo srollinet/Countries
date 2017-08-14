@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    
+    <AssemblyTitle>SRoll.Countries</AssemblyTitle>
+    <AssemblyName>SRoll.Countries</AssemblyName>
+    <Description>Localized list of ISO-3166 country codes.</Description>
+    <Copyright>Copyright © SRoll 2017</Copyright>
+    <Authors>Sylvain Rollinet</Authors>
+
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+
+    <PackageId>SRoll.Countries</PackageId>
+    <PackageTags>countries;ISO-3166;netstandard</PackageTags>
+
+    <RepositoryUrl>https://github.com/srollinet/Countries</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime" Version="4.1.0" />
+    <PackageReference Include="System.Resources.ResourceManager" Version="4.0.1" />
+    <PackageReference Include="System.Diagnostics.Debug" Version="4.0.11" />
+  </ItemGroup>
+
+</Project>

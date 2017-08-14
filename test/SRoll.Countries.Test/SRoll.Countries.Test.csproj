@@ -3,9 +3,9 @@
   <PropertyGroup>    
     <TargetFrameworks>netcoreapp1.1;net46</TargetFrameworks>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <ProjectReference Include="..\SRoll.Countries\SRoll.Countries.csproj" />
+    <ProjectReference Include="..\..\src\SRoll.Countries\SRoll.Countries.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,249 @@
+﻿ABW:Aruba
+AFG:Afghanistan
+AGO:Angola
+AIA:Anguilla
+ALA:Åland (les Îles)
+ALB:Albanie
+AND:Andorre
+ARE:Émirats arabes unis
+ARG:Argentine
+ARM:Arménie
+ASM:Samoa américaines
+ATA:Antarctique
+ATF:Terres australes françaises
+ATG:Antigua-et-Barbuda
+AUS:Australie
+AUT:Autriche
+AZE:Azerbaïdjan
+BDI:Burundi
+BEL:Belgique
+BEN:Bénin
+BES:Bonaire, Saint-Eustache et Saba
+BFA:Burkina Faso
+BGD:Bangladesh
+BGR:Bulgarie
+BHR:Bahreïn
+BHS:Bahamas
+BIH:Bosnie-Herzégovine
+BLM:Saint-Barthélemy
+BLR:Bélarus
+BLZ:Belize
+BMU:Bermudes
+BOL:Bolivie (État plurinational de)
+BRA:Brésil
+BRB:Barbade
+BRN:Brunéi Darussalam
+BTN:Bhoutan
+BVT:Bouvet (l'Île)
+BWA:Botswana
+CAF:République centrafricaine
+CAN:Canada
+CCK:Cocos (les Îles)/ Keeling (les Îles)
+CHE:Suisse
+CHL:Chili
+CHN:Chine
+CIV:Côte d'Ivoire
+CMR:Cameroun
+COD:Congo (la République démocratique du)
+COG:Congo
+COK:Cook (les Îles)
+COL:Colombie
+COM:Comores
+CPV:Cabo Verde
+CRI:Costa Rica
+CUB:Cuba
+CUW:Curaçao
+CXR:Christmas (l'Île)
+CYM:Caïmans (les Îles)
+CYP:Chypre
+CZE:tchèque (la République)
+DEU:Allemagne
+DJI:Djibouti
+DMA:Dominique
+DNK:Danemark
+DOM:dominicaine (la République)
+DZA:Algérie
+ECU:Équateur
+EGY:Égypte
+ERI:Érythrée
+ESH:Sahara occidental
+ESP:Espagne
+EST:Estonie
+ETH:Éthiopie
+FIN:Finlande
+FJI:Fidji
+FLK:Falkland (les Îles)/Malouines (les Îles)
+FRA:France
+FRO:Féroé (les Îles)
+FSM:Micronésie (États fédérés de)
+GAB:Gabon
+GBR:Royaume-Uni de Grande-Bretagne et d'Irlande du Nord
+GEO:Géorgie
+GGY:Guernesey
+GHA:Ghana
+GIB:Gibraltar
+GIN:Guinée
+GLP:Guadeloupe
+GMB:Gambie
+GNB:Guinée-Bissau
+GNQ:Guinée équatoriale
+GRC:Grèce
+GRD:Grenade
+GRL:Groenland
+GTM:Guatemala
+GUF:Guyane française (la )
+GUM:Guam
+GUY:Guyana
+HKG:Hong Kong
+HMD:Heard-et-Îles MacDonald (l'Île)
+HND:Honduras
+HRV:Croatie
+HTI:Haïti
+HUN:Hongrie
+IDN:Indonésie
+IMN:Île de Man
+IND:Inde
+IOT:Indien (le Territoire britannique de l'océan)
+IRL:Irlande
+IRN:Iran (République Islamique d')
+IRQ:Iraq
+ISL:Islande
+ISR:Israël
+ITA:Italie
+JAM:Jamaïque
+JEY:Jersey
+JOR:Jordanie
+JPN:Japon
+KAZ:Kazakhstan
+KEN:Kenya
+KGZ:Kirghizistan
+KHM:Cambodge
+KIR:Kiribati
+KNA:Saint-Kitts-et-Nevis
+KOR:Corée (la République de)
+KWT:Koweït
+LAO:Lao, République démocratique populaire
+LBN:Liban
+LBR:Libéria
+LBY:Libye
+LCA:Sainte-Lucie
+LIE:Liechtenstein
+LKA:Sri Lanka
+LSO:Lesotho
+LTU:Lituanie
+LUX:Luxembourg
+LVA:Lettonie
+MAC:Macao
+MAF:Saint-Martin (partie française)
+MAR:Maroc
+MCO:Monaco
+MDA:Moldova , République de
+MDG:Madagascar
+MDV:Maldives
+MEX:Mexique
+MHL:Marshall (Îles)
+MKD:Macédoine (l'ex‑République yougoslave de)
+MLI:Mali
+MLT:Malte
+MMR:Myanmar
+MNE:Monténégro
+MNG:Mongolie
+MNP:Mariannes du Nord (les Îles)
+MOZ:Mozambique
+MRT:Mauritanie
+MSR:Montserrat
+MTQ:Martinique
+MUS:Maurice
+MWI:Malawi
+MYS:Malaisie
+MYT:Mayotte
+NAM:Namibie
+NCL:Nouvelle-Calédonie
+NER:Niger
+NFK:Norfolk (l'Île)
+NGA:Nigéria
+NIC:Nicaragua
+NIU:Niue
+NLD:Pays-Bas
+NOR:Norvège
+NPL:Népal
+NRU:Nauru
+NZL:Nouvelle-Zélande
+OMN:Oman
+PAK:Pakistan
+PAN:Panama
+PCN:Pitcairn
+PER:Pérou
+PHL:Philippines
+PLW:Palaos
+PNG:Papouasie-Nouvelle-Guinée
+POL:Pologne
+PRI:Porto Rico
+PRK:Corée (la République populaire démocratique de)
+PRT:Portugal
+PRY:Paraguay
+PSE:Palestine, État de
+PYF:Polynésie française
+QAT:Qatar
+REU:Réunion
+ROU:Roumanie
+RUS:Russie (la Fédération de)
+RWA:Rwanda
+SAU:Arabie saoudite
+SDN:Soudan
+SEN:Sénégal
+SGP:Singapour
+SGS:Géorgie du Sud-et-les Îles Sandwich du Sud
+SHN:Sainte-Hélène, Ascension et Tristan da Cunha
+SJM:Svalbard et l'Île Jan Mayen
+SLB:Salomon (Îles)
+SLE:Sierra Leone
+SLV:El Salvador
+SMR:Saint-Marin
+SOM:Somalie
+SPM:Saint-Pierre-et-Miquelon
+SRB:Serbie
+SSD:Soudan du Sud
+STP:Sao Tomé-et-Principe
+SUR:Suriname
+SVK:Slovaquie
+SVN:Slovénie
+SWE:Suède
+SWZ:Swaziland
+SXM:Saint-Martin (partie néerlandaise)
+SYC:Seychelles
+SYR:République arabe syrienne
+TCA:Turks-et-Caïcos (les Îles)
+TCD:Tchad
+TGO:Togo
+THA:Thaïlande
+TJK:Tadjikistan
+TKL:Tokelau
+TKM:Turkménistan
+TLS:Timor-Leste
+TON:Tonga
+TTO:Trinité-et-Tobago
+TUN:Tunisie
+TUR:Turquie
+TUV:Tuvalu
+TWN:Taïwan (Province de Chine)
+TZA:Tanzanie, République-Unie de
+UGA:Ouganda
+UKR:Ukraine
+UMI:Îles mineures éloignées des États-Unis
+URY:Uruguay
+USA:États-Unis d'Amérique
+UZB:Ouzbékistan
+VAT:Saint-Siège
+VCT:Saint-Vincent-et-les Grenadines
+VEN:Venezuela (République bolivarienne du)
+VGB:Vierges britanniques (les Îles)
+VIR:Vierges des États-Unis (les Îles)
+VNM:Viet Nam
+VUT:Vanuatu
+WLF:Wallis-et-Futuna
+WSM:Samoa
+YEM:Yémen
+ZAF:Afrique du Sud
+ZMB:Zambie
+ZWE:Zimbabwe

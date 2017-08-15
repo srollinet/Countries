@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using SRoll.Countries.Resources;
+using SRoll.Countries.TranslationsProvider;
 
 namespace SRoll.Countries
 {
@@ -10,6 +10,8 @@ namespace SRoll.Countries
     /// </summary>
     public class Country
     {
+        private static readonly DictionaryTranslationsProvider TranslationsProvider = DictionaryTranslationsProvider.CreateDefaultProvider();
+
         //Used for countries created manually
         private readonly string _name;
 
@@ -31,7 +33,7 @@ namespace SRoll.Countries
         /// <summary>
         /// Name in the current UI culture
         /// </summary>
-        public string Name => _name ?? CountryNames.ResourceManager.GetString(Alpha3Code);
+        public string Name => _name ?? TranslationsProvider.GetValue(Alpha3Code);
 
         /// <summary>
         /// Returns a new instance of <see cref="Country"/> with custom codes and name
@@ -73,7 +75,7 @@ namespace SRoll.Countries
         /// <returns>The localized name</returns>
         public string GetLocalizedName(CultureInfo culture)
         {
-            return CountryNames.ResourceManager.GetString(Alpha3Code, culture);
+            return TranslationsProvider.GetValue(Alpha3Code, culture);
         }
 
         /// <summary>

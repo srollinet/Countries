@@ -65,11 +65,11 @@ namespace SRoll.Countries.Test
         private static void SetCulture(string culture)
         {
             var ci = new CultureInfo(culture);
-            #if LEGACY
+#if NET452
             System.Threading.Thread.CurrentThread.CurrentUICulture = ci;
-            #else
+#else
             CultureInfo.CurrentUICulture = ci;
-            #endif
+#endif
         }
     }
 }

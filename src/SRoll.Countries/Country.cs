@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using SRoll.Countries.TranslationsProvider;
+using SRoll.Countries.TranslationProvider;
 
 namespace SRoll.Countries
 {
@@ -10,7 +10,13 @@ namespace SRoll.Countries
     /// </summary>
     public class Country
     {
-        private static readonly DictionaryTranslationsProvider TranslationsProvider = DictionaryTranslationsProvider.CreateDefaultProvider();
+        private static readonly ITranslationProvider DefaultTranslationProvider = TranslationProvider.TranslationProvider.CreateDefaultProvider();
+
+        /// <summary>
+        /// Use this to overide the values provided by default.
+        /// If the custom provider returns a null value for a country, the value is taken from the default provider.
+        /// </summary>
+        public static ITranslationProvider CustomTranslationProvider { get; set; }
 
         //Used for countries created manually
         private readonly string _name;
@@ -33,7 +39,9 @@ namespace SRoll.Countries
         /// <summary>
         /// Name in the current UI culture
         /// </summary>
-        public string Name => _name ?? TranslationsProvider.GetValue(Alpha3Code);
+        public string Name => _name ??
+            CustomTranslationProvider?.GetValue(Alpha3Code) ??
+            DefaultTranslationProvider.GetValue(Alpha3Code);
 
         /// <summary>
         /// Returns a new instance of <see cref="Country"/> with custom codes and name
@@ -44,15 +52,10 @@ namespace SRoll.Countries
         /// <param name="name">Name</param>
         public Country(string alpha2Code, string alpha3Code, int numericCode, string name)
         {
-            if (name == null)
-            {
-                throw new ArgumentNullException(nameof(name));
-            }
-
             Alpha2Code = alpha2Code;
             Alpha3Code = alpha3Code;
             NumericCode = numericCode;
-            _name = name;
+            _name = name ?? throw new ArgumentNullException(nameof(name));
         }
 
         /// <summary>
@@ -75,13 +78,14 @@ namespace SRoll.Countries
         /// <returns>The localized name</returns>
         public string GetLocalizedName(CultureInfo culture)
         {
-            return TranslationsProvider.GetValue(Alpha3Code, culture);
+            return CustomTranslationProvider?.GetValue(Alpha3Code, culture) ??
+                   DefaultTranslationProvider.GetValue(Alpha3Code, culture);
         }
 
         /// <summary>
         /// List with all the countries
         /// </summary>
-        public static IReadOnlyCollection<Country> List = new []{
+        public static IReadOnlyCollection<Country> List = new[]{
             new Country("AF", "AFG", 004),
             new Country("AX", "ALA", 248),
             new Country("AL", "ALB", 008),

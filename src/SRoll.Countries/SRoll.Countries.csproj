@@ -6,7 +6,7 @@
     <AssemblyTitle>SRoll.Countries</AssemblyTitle>
     <AssemblyName>SRoll.Countries</AssemblyName>
     <Description>Localized list of ISO-3166 country codes.</Description>
-    <Copyright>Copyright © SRoll 2017</Copyright>
+    <Copyright>Copyright © Sylvain Rollinet 2017</Copyright>
     <Authors>Sylvain Rollinet</Authors>
 
     <Version>1.0.0</Version>

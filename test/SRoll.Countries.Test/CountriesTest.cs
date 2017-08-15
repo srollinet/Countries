@@ -1,4 +1,6 @@
 ﻿using System.Globalization;
+using Moq;
+using SRoll.Countries.TranslationProvider;
 using Xunit;
 
 namespace SRoll.Countries.Test
@@ -8,6 +10,7 @@ namespace SRoll.Countries.Test
         public CountriesTest()
         {
             SetCulture("en");
+            Country.CustomTranslationProvider = null;
         }
 
         [Fact]
@@ -18,7 +21,7 @@ namespace SRoll.Countries.Test
         }
 
         [Fact]
-        public void OtherCultureTest()
+        public void ChildCultureTest()
         {
             SetCulture("fr-CH");
             var country = new Country("CH", "CHE", 756);
@@ -58,18 +61,51 @@ namespace SRoll.Countries.Test
             Assert.NotEmpty(list);
             foreach (var country in list)
             {
-                Assert.NotNull(country.Name);
+                Assert.NotEmpty(country.Name);
             }
+        }
+
+        [Fact]
+        public void CustomProviderTest()
+        {
+            var providerMock = new Mock<ITranslationProvider>();
+            Country.CustomTranslationProvider = providerMock.Object;
+
+            var country = new Country("CH", "CHE", 756);
+
+            providerMock.Setup(provider => provider.GetValue("CHE")).Returns("Switzerland!");
+            Assert.Equal("Switzerland!", country.Name);
+
+            providerMock.Setup(provider => provider.GetValue("CHE")).Returns((string) null);
+            Assert.Equal("Switzerland", country.Name);
+
+            providerMock.Setup(provider => provider.GetValue("CHE")).Returns("");
+            Assert.Equal("", country.Name);
+
+            var culture = new CultureInfo("fr");
+            providerMock.Setup(provider => provider.GetValue("CHE", culture)).Returns("Suisse!");
+            Assert.Equal("Suisse!", country.GetLocalizedName(culture));
+
+            providerMock.Setup(provider => provider.GetValue("CHE", culture)).Returns((string)null);
+            Assert.Equal("Suisse", country.GetLocalizedName(culture));
+
+            providerMock.Setup(provider => provider.GetValue("CHE", culture)).Returns("");
+            Assert.Equal("", country.GetLocalizedName(culture));
+
+            Country.CustomTranslationProvider = null;
+            Assert.Equal("Switzerland", country.Name);
+            Assert.Equal("Suisse", country.GetLocalizedName(culture));
+
         }
 
         private static void SetCulture(string culture)
         {
             var ci = new CultureInfo(culture);
-            #if LEGACY
+#if NET452
             System.Threading.Thread.CurrentThread.CurrentUICulture = ci;
-            #else
+#else
             CultureInfo.CurrentUICulture = ci;
-            #endif
+#endif
         }
     }
 }

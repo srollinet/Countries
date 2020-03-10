@@ -30,8 +30,4 @@
     <EmbeddedResource Include="Translations\*.txt" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Remove="Translations\CountryNames_da-DK.txt" />
-  </ItemGroup>
-
 </Project>

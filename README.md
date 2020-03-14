@@ -5,6 +5,7 @@ A simple .NET Standard Library with a localized list of ISO-3166 country with Al
 For now, the following languages are available
 - English
 - French
+- Danish
 
 ## Usage
 

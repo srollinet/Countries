@@ -14,7 +14,7 @@
 
     <PackageId>SRoll.Countries</PackageId>
     <PackageTags>countries;ISO-3166;netstandard</PackageTags>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/srollinet/Countries/master/LICENSE.md</PackageLicenseUrl>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/srollinet/Countries</PackageProjectUrl>
 
     <RepositoryUrl>https://github.com/srollinet/Countries</RepositoryUrl>
@@ -28,6 +28,10 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Translations\*.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../LICENSE.md" Pack="true" PackagePath="LICENSE.md"/>
   </ItemGroup>
 
 </Project>
